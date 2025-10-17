@@ -159,7 +159,7 @@ const token =ref('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmdhbml6YXRpb25faWQiO
                 SessionId:localSessionId.value
             };
             const res = await axios.post(
-                `/check/scan`,
+                `/check/get`,
                 payload,
                 {
                     headers: {
